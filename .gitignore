@@ -1,0 +1,24 @@
+# dependencies
+/scripts/scraping/node_modules
+/scripts/scraping/.venv
+
+# misc
+.DS_Store
+*.pem
+
+# Pastas de dados gerados e dependências
+data/raw/
+data/processed/
+*.pyc
+*.ipynb_checkpoints/
+
+
+# Modelos grandes e diretórios temporários
+model/spaCy_model/
+*.model
+*.ckpt
+
+# Arquivos de ambiente e credenciais
+.env
+.vscode/
+
