@@ -1,6 +1,6 @@
 # dependencies
-/scripts/scraping/node_modules
-/scripts/scraping/.venv
+node_modules
+.venv
 
 # misc
 .DS_Store
