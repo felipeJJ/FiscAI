@@ -3,9 +3,9 @@ import fetch from 'node-fetch';
 import cliProgress from 'cli-progress';
 
 // Caminhos dos arquivos e URL da API
-const skuFile = 'lista_skuID_produtos.json';
-const outputFile = 'dados_produtos.json';
-const retryFile = 'sku_ids_retry.json';
+const skuFile = '../data/processed/products_ids_list.json';
+const outputFile = '../data/raw/products_data.json';
+const retryFile = '../data/processed/sku_ids_retry.json';
 const apiUrl = 'https://www."substituir".com.br/api/catalog_system/pub/products/search?fq=productId:';
 const MAX_RETRIES = 3; // Número máximo de tentativas por SKU
 
