@@ -22,3 +22,79 @@ model/spaCy_model/
 .env
 .vscode/
 
+# Configuração padrão para projetos ASP.NET e ASP.NET Core
+
+## Build
+bin/
+obj/
+out/
+
+## Rider
+.idea/
+*.sln.iml
+
+## Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Visual Studio Code
+.vscode/
+*.code-workspace
+
+## Logs e Arquivos Temporários
+*.log
+Logs/
+*.tlog
+*.log
+
+# Diretórios de usuário
+**/node_modules/
+**/bower_components/
+
+## Configuração de pacote
+packages/
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Arquivos de dependências do .NET Core
+project.lock.json
+project.assets.json
+*.deps.json
+
+## Arquivos de cache e de lock
+*.csproj.user
+*.csproj.nuget.cache
+*.nuget.props
+
+## Configuração de ambiente
+appsettings.Development.json
+appsettings.*.local.json
+
+# Arquivos de publicação e deploy
+publish/
+wwwroot/
+
+## Caches de ferramentas
+*.swp
+*.bak
+*.tmp
+*~
+*.pid
+*.seed
+
+# Arquivos de saída de Docker
+Dockerfile.*
+
+# Arquivos de saída de migrações (opcional)
+Migrations/
+
+# Outros arquivos específicos do IDE e do sistema operacional
+*.DS_Store
+Thumbs.db
+desktop.ini
