@@ -1,4 +1,4 @@
-using Npgsql.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,4 +18,5 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.MapInvoicesEndpoints();
 app.Run();
