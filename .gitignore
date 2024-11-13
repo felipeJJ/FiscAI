@@ -65,6 +65,8 @@ artifacts/
 # Arquivos de dependências do .NET Core
 project.lock.json
 project.assets.json
+appsettings.json
+appsettings.*.json
 *.deps.json
 
 ## Arquivos de cache e de lock
