@@ -93,9 +93,6 @@ wwwroot/
 # Arquivos de saída de Docker
 Dockerfile.*
 
-# Arquivos de saída de migrações (opcional)
-Migrations/
-
 # Outros arquivos específicos do IDE e do sistema operacional
 *.DS_Store
 Thumbs.db
